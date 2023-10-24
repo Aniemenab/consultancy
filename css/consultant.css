@@ -1,0 +1,335 @@
+
+/*--------------------------------------------------------------------- import Files ---------------------------------------------------------------------*/
+
+@import url(animate.min.css);
+@import url(normalize.css);
+@import url(meanmenu.css);
+@import url(owl.carousel.min.css);
+@import url(slick.css);
+@import url(jquery-ui.css);
+@import url(nice-select.css);
+
+/*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
+
+.about_headtext {
+    width: 97% !important;
+    height: auto;
+    margin: auto;
+    padding: 4rem;
+}
+
+.about_headtext2 {
+    width: 92% !important;
+    height: auto;
+    margin: auto;
+    padding: 2rem;
+}
+
+/* ========================= */
+.consultant_main_cover {
+    width: 100%;
+    height: 657px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.consult_cover {
+    width: 100%;
+    height: 657px;
+    background-color: rgba(0, 0, 0, 0.918);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.consult_head_top_text {
+    width: 80%;
+    height: auto;
+    text-align: center;
+}
+
+.consult_head_top_text h1 {
+    font-size: 3rem;
+}
+
+.consult_head_top_text p {
+    font-size: 16px;
+}
+
+.consult_head_top_text :is(h1, h3, p) {
+    color: white;
+}
+
+.consult_head_top_text span {
+    color: blue;
+}
+
+.consult_box_main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: -8rem;
+}
+.consult_box_main2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 1.5rem;
+  
+}
+
+.consut_box {
+    width: 390px;
+    height: auto;
+    background-color: rebeccapurple;
+    background-size: contain;
+
+}
+
+.box_cover {
+
+    text-align: center;
+    padding: 1rem;
+}
+
+.consut_box :is(p, i, h4) {
+    color: white;
+    margin-top: 10px;
+}
+
+.consut_box i {
+    font-size: 3rem;
+}
+
+.consult_box_main :nth-child(2) .box_cover {
+    background-color: rgba(165, 42, 42, 0.671);
+
+}
+
+.consult_box_main :nth-child(1) .box_cover {
+    background-color: rgba(102, 51, 153, 0.671);
+
+}
+
+.consult_box_main :nth-child(3) .box_cover {
+    background-color: rgba(153, 205, 50, 0.671);
+
+}
+.consult_box_main2 :nth-child(2) .box_cover {
+    background-color: rgba(165, 42, 42, 0.671);
+
+}
+
+.consult_box_main2 :nth-child(1) .box_cover {
+    background-color: rgba(102, 51, 153, 0.671);
+
+}
+
+.consult_box_main2 :nth-child(3) .box_cover {
+    background-color: rgba(153, 205, 50, 0.671);
+
+}
+
+
+.consutl_text_img_body {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: auto;
+
+}
+
+.consutl_text_img_body :is(.cons_text, .cons_img) {
+    width: 50%;
+    height: auto;
+    padding: 1.3rem;
+
+}
+
+.cons_text p {
+    font-size: 19px;
+    color: black;
+}
+
+.cons_img img {
+    width: 100%;
+}
+
+.accd_body {
+    width: 100%;
+    height: auto;
+}
+
+/* ===================== */
+.acc_top_text {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    padding: 1rem;
+}
+.acc_dis{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+
+.acc_two {
+    width: 50%;
+    height: auto;
+
+padding: 2rem;
+}
+.acc_img{
+    width: 50%;
+    height: auto;
+    padding: 2rem;
+}
+.acc_img img{
+    width: 100%;
+}
+.accordion {
+    background-color: #eee;
+    color: black;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    outline: none;
+    font-size: 15px;
+
+}
+
+.active,
+.accordion:hover {
+    background-color: #d4d0d0;
+}
+
+.panel {
+    padding: 0 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+    transition: 0.4s;
+    width: 100%;
+    height: auto;
+    padding-bottom: 1rem;
+    text-align: justify;
+}
+.panel p{
+    color: black;
+}
+.panel ul{
+    padding: 0;
+}
+
+/* ================================ */
+
+.consultant_main_cover2 {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.education_cover {
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.918);
+
+    padding: 12rem 7.1rem;
+
+
+}
+
+.education_head_top_text {
+    width: 80%;
+    height: auto;
+}
+
+.education_head_top_text h1 {
+    font-size: 3rem;
+}
+
+.education_head_top_text p {
+    font-size: 16px;
+}
+
+.education_head_top_text :is(h1, h3, p) {
+    color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+ :focus {
+    outline: 0;
+}
+
+/*sliderone*/
+
+.site-slider-two {
+    position: relative;
+    height: 30%;
+ padding-top: 5rem;
+    width: 97%;
+    margin: auto;
+}
+
+.site-slider-one .film {
+    width: 100%;
+    height: 25rem;
+    position: relative;
+    margin: auto;
+}
+
+.film .consut_box{
+    width: 350px;
+    height: auto;
+    border-radius: 20px;
+}
+.film .box_cover{
+    background-color: rgba(178, 34, 34, 0.884);
+    border-radius: 20px;
+}
+.slider-one-img {
+    width:90%;
+    height: auto;
+}
+.slider-one-img img{
+    width: 100%;
+    height: 35vh;
+}
+
+.site-slider-two :is(.prev, .next){
+    width: 60px;
+    height: 60px;
+    position: absolute; 
+    z-index: 99999999999999;
+    margin-top: 6rem;
+    border: 1px solid white;
+    border-radius: 100%;
+    padding: .8rem;
+    text-align: center;
+    color: white;
+}
+.prev {
+  float: left;
+  left: -5.9rem;
+}
+.next {
+    right: -5.6rem;
+}
+
+
+
+

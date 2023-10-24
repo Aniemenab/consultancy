@@ -1,0 +1,254 @@
+.about_headtext {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    padding: 2rem;
+}
+
+.inner_about_head {
+    width: 87%;
+}
+
+.inner_about_head h1 {
+    font-size: 60px;
+}
+
+.inner_about_head p {
+    margin-top: .4rem;
+}
+
+.inner_about_head :is(h1, p, ) {
+    color: black;
+}
+
+.next_text {
+    width: 85%;
+    margin: auto;
+}
+
+
+/*---------------------
+	Team Section
+-----------------------*/
+
+.team-section {
+    overflow: hidden;
+}
+
+.team-members {
+    margin: 0 -10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.section-title p {
+    color: black;
+}
+
+.member {
+    background: #fff;
+    width: calc(23% - 25px);
+    display: inline-block;
+    margin: 0 10px;
+    text-align: center;
+    padding: 50px 10px;
+    -webkit-box-shadow: 1px 1px 1px rgba(33, 54, 61, 0.15);
+    box-shadow: 1px 1px 1px rgba(33, 54, 61, 0.15);
+    border-radius: 10px;
+    position: relative;
+}
+
+.member h2 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.member span {
+    font-size: 14px;
+    color: #75849a;
+    display: block;
+}
+
+.member .member-text {
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+    opacity: 1;
+}
+
+.member:hover {
+    -webkit-box-shadow: 1px 14px 43px rgba(33, 54, 61, 0.15);
+    box-shadow: 1px 14px 43px rgba(33, 54, 61, 0.15);
+}
+
+.member:hover .member-info {
+    opacity: 1;
+}
+
+.member:hover .member-text {
+    opacity: 0;
+}
+
+.member-img {
+    width: 230px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+
+.member-text .member-img img {
+    width: 230px;
+    height: 230px;
+    border-radius: 100%;
+}
+
+.member-social {
+    padding-top: 25px;
+    background: #fff;
+    position: relative;
+    z-index: 2;
+}
+
+.member-social a {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #cbd3df;
+    color: #fff;
+    padding-top: 13px;
+    margin: 0 8px;
+}
+
+.member-meta {
+    padding-left: 85px;
+}
+
+.member-info {
+    padding: 50px 60px 10px;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    text-align: left;
+    opacity: 0;
+    -webkit-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+    height: 380px;
+    overflow-y: auto;
+}
+
+.member-info p {
+    display: block;
+    padding-top: 25px;
+    margin-bottom: 0;
+}
+
+.member-img.mf {
+    width: 60px;
+    height: 60px;
+    opacity: 1;
+    float: left;
+    margin-bottom: 0;
+}
+
+.member-info .member-img img {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+    .team-members {
+        text-align: center;
+    }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .member {
+        width: calc(33.333333% - 25px);
+        margin-bottom: 30px;
+        padding: 35px 10px;
+    }
+
+    .member-img {
+        width: 160px;
+        height: 160px;
+    }
+
+    .member-info {
+        padding: 50px 27px 10px;
+        height: 275px;
+    }
+
+    .member-social a {
+        margin: 0 5px;
+    }
+
+    .team-members {
+        text-align: center;
+    }
+
+
+}
+
+@media only screen and (max-width: 767px) {
+
+    .team-members {
+        margin: 0;
+        padding: 0 15px;
+    }
+
+    .member {
+        width: 100%;
+        margin-bottom: 30px;
+        margin-left: 0;
+    }
+
+}
+
+@media only screen and (max-width: 479px) {
+
+    .member-img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .member-info {
+        padding: 50px 20px 10px;
+        height: 320px;
+    }
+
+}
+
+.last_img_body1 {
+    width: 100%;
+    height: auto;
+}
+
+.last_img2 {
+    width: 100%;
+    height: 360px;
+    background-size: cover;
+    background-position: center;
+  background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 6rem;
+    background: fixed;
+}
+
+.last_text2 {
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+.last_text2 :is(p,h2){
+    color: white;
+}

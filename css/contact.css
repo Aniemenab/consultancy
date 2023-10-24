@@ -1,0 +1,136 @@
+.contact_cover {
+    width: 100%;
+    height: auto;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+}
+
+.contact_info {
+    width: 390px;
+    height: auto;
+    /* margin-top: ; */
+}
+
+.contact_info .info {
+    width: auto;
+    height: auto;
+    border-left: 3px solid rgb(60, 34, 179);
+    padding: .3rem 0 0 .8rem;
+    
+}
+
+.contact_info .info:nth-child(2) {
+    margin-top: 1.5rem;
+}
+
+.contact_info .info:nth-child(3) {
+    margin-top: 2rem;
+}
+
+.contact_info .info:nth-child(4) {
+    margin-top: 2rem;
+}
+
+.contact_info a {
+    color: #333;
+}
+
+.contact_info .info p {
+    margin-top: 1rem;
+    color: #333;
+}
+
+.contact_form {
+    width: 650px;
+    height: auto;
+    /* background-color: purple; */
+    padding-top: 2.3rem;
+}
+
+.inner_form {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+}
+
+:focus {
+    outline: none;
+}
+
+.col-32 {
+    float: left;
+    width: 40%;
+    margin: 40px 3%;
+    position: relative;
+}
+
+.mess {
+    float: left;
+    width: 100%;
+    margin: 40px 3%;
+    position: relative;
+}
+
+.mess textarea {
+    width: 100%;
+    border: 1px solid black;
+}
+
+.contact_form form {
+    width: 100%;
+    height: auto;
+    /* background-color: orchid; */
+}
+
+.contact_form input {
+    width: 100%;
+}
+
+/* necessary to give position: relative to parent. */
+input[type="text"] {
+    font: 15px/24px "Lato", Arial, sans-serif;
+    color: #333;
+    width: 100%;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+
+.effect-1 {
+    border: 0;
+    padding: 7px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.effect-1~.focus-border {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #3399FF;
+    transition: 0.4s;
+}
+
+.effect-1:focus~.focus-border {
+    width: 100%;
+    transition: 0.4s;
+}
+
+.submit{
+    width: 130px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    font-family: fligen;
+}
