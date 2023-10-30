@@ -1,16 +1,18 @@
 .about_headtext {
-    width: 90%;
+    width: 100%;
     height: auto;
     margin: auto;
-    padding: 2rem;
+    padding: 2rem 0 2rem 0;
 }
 
 .inner_about_head {
-    width: 87%;
+    width: 85%;
+    margin: auto;
 }
 
 .inner_about_head h1 {
     font-size: 60px;
+    font-family: 'Alegreya Sans', sans-serif;
 }
 
 .inner_about_head p {
@@ -41,6 +43,7 @@
     align-items: center;
     justify-content: center;
     padding-top: 2rem;
+    flex-wrap: wrap;
 }
 
 .section-title p {
@@ -92,16 +95,16 @@
 }
 
 .member-img {
-    width: 230px;
-    height: 230px;
+    width: 200px;
+    height: 200px;
     display: inline-block;
     border-radius: 50%;
     margin-bottom: 25px;
 }
 
 .member-text .member-img img {
-    width: 230px;
-    height: 230px;
+    width: 200px;
+    height: 200px;
     border-radius: 100%;
 }
 
@@ -235,7 +238,7 @@
 
 .last_img2 {
     width: 100%;
-    height: 360px;
+    height: auto;
     background-size: cover;
     background-position: center;
   background-repeat: no-repeat;
@@ -247,8 +250,61 @@
 .last_text2 {
     width: 80%;
     height: auto;
+    padding-bottom: 7rem;
     margin: auto;
 }
 .last_text2 :is(p,h2){
     color: white;
+}
+.about_headtext {
+    width: 100%;
+    height: auto;
+    margin: auto;
+
+}
+@media screen and (max-width:1049px) {
+    .member-img {
+        width: 180px;
+        height: 180px;
+        display: inline-block;
+        border-radius: 50%;
+        margin-bottom: 25px;
+    }
+    
+    .member-text .member-img img {
+        width: 180px;
+        height: 180px;
+        border-radius: 100%;
+    }
+}
+@media screen and (max-width:512px) {
+    .inner_about_head {
+        width: 85%;
+    }
+    .inner_about_head h1 {
+        font-size: 43px;
+    }
+    .inner_about_head h3 {
+        font-size: 19px;
+    }
+    
+  
+    
+}
+@media screen and (max-width:346px) {
+    .inner_about_head h1 {
+        font-size: 35px;
+    }
+    .inner_about_head h3 {
+        font-size: 17px;
+    }
+    
+}
+@media screen and (max-width:294px) {
+
+    .inner_about_head h1 {
+        font-size: 30px;
+    }
+   
+    
 }

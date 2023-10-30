@@ -4,11 +4,14 @@
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@500&display=swap" rel="stylesheet">
     <!-- ===================font============================ -->
     <link rel="stylesheet" href="fonts/icomoon/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,7 +31,7 @@
     <link rel="stylesheet" href="./css/navbar.css">
     <link rel="stylesheet" href="./css/style.css">
 
-    <title>Website Menu #3</title>
+    <title>Consultancy</title>
 </head>
 
 <body>
@@ -55,17 +58,19 @@
                     <nav class="site-navigation position-relative text-right" role="navigation">
 
                         <ul class="site-menu js-clone-nav mr-auto d-none d-lg-block">
-                            <li><a href="./about.html"><span>ABOUT</span></a></li>
+                            <li class="active"><a href="./about.html"><span>ABOUT</span></a></li>
 
                             <li class="has-children">
                                 <a href="#"><span> CONSULTANT</span></a>
                                 <ul class="dropdown arrow-top">
-                                    <li><a href="./projectmanagemntconsultant.html">Project Management Consultant</a></li>
-                                    <li><a href="./environmentconsultant.html">Environment Consultant</a></li>
-                                    <li><a href="./educationconsultant.html">Education Consultant</a></li>
+                                    <li><a href="./projectmanagemntconsultant.html">Project Management Consultant</a>
+                                    </li>
+                                    <li><a href="./environmentconsultant.html">Environmental Consultant</a></li>
+                                    <li><a href="./educationconsultant.html">Educational Consultant</a></li>
                                     <li><a href="./engineeringconsultant.html">Engineering Consultant</a></li>
                                     <li><a href="./financialconsultant.html">Financial Consultant</a></li>
                                     <li><a href="./healthconsultant.html">Health Consultant</a></li>
+                                    <li><a href="./healthconsultant.html">Digital Consultant</a></li>
                                     <!-- <li class="has-children">
 										<a href="#">Dropdown</a>
 										<ul class="dropdown">
@@ -79,7 +84,7 @@
                             </li>
 
                             <li><a href="./service.html"><span>SERVICE</span></a></li>
-                            <li class="active"><a href="./contact.html"><span>CONTACT </span></a></li>
+                            <li><a href="./contact.html"><span>CONTACT </span></a></li>
                             <li class="act"><a href="./register.html">REGISTER</a></li>
                         </ul>
                     </nav>
@@ -100,56 +105,59 @@
     <div class="header_cover" style="background-image: url('./images/istockphoto-1418045846-170667a.webp');">
 
     </div>
-    <div class="contact_cover">
-        <div class="contact_info">
-            <h1>Get In Touch</h1>
-            <div class="info">
-                <h3>Phone</h3>
-                <p><a href="tel:+">+234 405 40302</a></p>
-                
-            </div>
-            <div class="info">
-                <h3>Email</h3>
-                <p><a href="mailto:">info@email.com</a></p>
-     
-            </div>
-            <div class="info">
-                <h3>Address</h3>
-                <p><a href="">East BLue. GrandLine, Log Town</a></p>
-                
-            </div>
-        </div>
-        <div class="contact_form">
-            <form action="">
-                <div class="inner_form">
-                    <div class="col-32">
-                        <input class="effect-1" type="text" placeholder="Firstname">
-                        <span class="focus-border"></span>
-                    </div>
-                    <div class="col-32">
-                        <input class="effect-1" type="text" placeholder="LastName">
-                        <span class="focus-border"></span>
-                    </div>
-                    <div class="col-32">
-                        <input class="effect-1" type="email" placeholder="Email">
-                        <span class="focus-border"></span>
-                    </div>
-                    <div class="col-32">
-                        <input class="effect-1" type="number" placeholder="Phone Number">
-                        <span class="focus-border"></span>
-                    </div>
-                    <div class="mess">
-                        <textarea name="" id="" cols="30" rows="10" class="effect-1"
-                            placeholder="Tell us about your question"></textarea>
-                        <span class="focus-border"></span>
-                    </div>
-
+    <div class="contact_maiin">
+        <div class="contact_cover">
+            <div class="contact_info">
+                <h1>Get In Touch</h1>
+                <div class="info">
+                    <h3>Phone</h3>
+                    <p><a href="tel:+">+234 405 40302</a></p>
+                    
                 </div>
-
-            </form>
-            <button class="submit">Send</button>
+                <div class="info">
+                    <h3>Email</h3>
+                    <p><a href="mailto:">info@email.com</a></p>
+         
+                </div>
+                <div class="info">
+                    <h3>Address</h3>
+                    <p><a href="">East BLue. GrandLine, Log Town</a></p>
+                    
+                </div>
+            </div>
+            <div class="contact_form">
+                <form action="">
+                    <div class="inner_form">
+                        <div class="col-32">
+                            <input class="effect-1" type="text" id="fname" placeholder="Firstname" required>
+                            <span class="focus-border"></span>
+                        </div>
+                        <div class="col-32">
+                            <input class="effect-1" type="text" id="lname" placeholder="LastName" required>
+                            <span class="focus-border"></span>
+                        </div>
+                        <div class="col-32">
+                            <input class="effect-1" type="email" id="email" placeholder="Email" required>
+                            <span class="focus-border"></span>
+                        </div>
+                        <div class="col-32">
+                            <input class="effect-1" type="number" id="phone" placeholder="Phone Number" required>
+                            <span class="focus-border"></span>
+                        </div>
+                        <div class="mess">
+                            <textarea name="" id="message" cols="30" rows="10" class="effect-1"
+                                placeholder="Tell us about your question"></textarea>
+                            <span class="focus-border"></span>
+                        </div>
+    
+                    </div>
+                    <button class="submit">Send</button>
+                </form>
+                
+            </div>
         </div>
     </div>
+   
 
     <footer style="background-image: url(./images/360_F_500767502_AdezwSUsyb04l79RpV6zubKulRnIHpd0.jpg);">
         <div class="footer_body">
@@ -228,6 +236,8 @@
         </div>
     </footer>
 </body>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script src="./js/contactEmail.js"></script>
 <script src="js/jquery-3.3.1.min.js"></script>
 <script src="./js/owl.carousel.js"></script>
 <script src="./js/owl.carousel.min.js"></script>

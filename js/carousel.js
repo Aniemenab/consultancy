@@ -1,9 +1,10 @@
 
 const responsive = {
 
-    960: {
+    160: {
         items: 1
-    }
+    }, 
+   
 }
 $(document).ready(function () {
 
@@ -20,6 +21,7 @@ $(document).ready(function () {
         // animateIn: "slideInDown",
         // navText: [$('.owl-navigation .owl-nav-prev'), $('.owl-navigation .owl-nav-next')],
         responsive: responsive
+       
     });
 
 });
