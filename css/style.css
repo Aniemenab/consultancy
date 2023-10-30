@@ -106,7 +106,6 @@ a:hover {
     width: 100%;
     height: auto;
     float: right;
-    background-color: pink;
 }
 
 
@@ -115,8 +114,6 @@ a:hover {
     flex-direction: column;
     text-align: center; */
     width: 100%;
-    height: auto;
-    background-color: red;
 }
 
 
@@ -147,7 +144,6 @@ a:hover {
 .Gaius-Desktop-about {
     width: 100%;
     height: auto;
-    background-color: green;
 }
 
 .caro_img_body {
@@ -249,7 +245,6 @@ a:hover {
 .about_home_head {
     width: 300px;
     height: auto;
-    background-color: red;
     padding: 2rem;
 }
 
@@ -321,7 +316,6 @@ a:hover {
     width: 55%;
     height: auto;
     padding: 2rem;
-    background-color: red;
 }
 
 .cont_text1 {
@@ -916,7 +910,6 @@ footer .right a {
         width: 60%;
         height: auto;
         padding: 2rem;
-        background-color: red;
     }
 
     .cont_text1 {
@@ -1035,7 +1028,6 @@ footer .right a {
         width: 70%;
         height: auto;
         padding: 2rem;
-        background-color: red;
     }
 }
 
@@ -1093,7 +1085,6 @@ footer .right a {
         width: 70%;
         height: auto;
         padding: 2rem 0 0 0rem;
-        background-color: red;
     }
 }
 
@@ -1104,7 +1095,6 @@ footer .right a {
         width: 70%;
         height: auto;
         padding: 2rem 0 0 .5rem;
-        background-color: red;
     }
 }
 
